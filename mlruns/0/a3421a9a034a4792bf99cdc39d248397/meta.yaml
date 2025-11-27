@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOps/ML-flow-exp/mlruns/0/a3421a9a034a4792bf99cdc39d248397/artifacts
+end_time: 1764204305381
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a3421a9a034a4792bf99cdc39d248397
+run_name: trusting-chimp-212
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764204304928
+status: 3
+tags: []
+user_id: upratham

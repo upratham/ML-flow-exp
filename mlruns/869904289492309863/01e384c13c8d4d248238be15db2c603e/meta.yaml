@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/869904289492309863/01e384c13c8d4d248238be15db2c603e/artifacts
+end_time: 1764204401087
+entry_point_name: ''
+experiment_id: '869904289492309863'
+lifecycle_stage: active
+run_id: 01e384c13c8d4d248238be15db2c603e
+run_name: salty-boar-381
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764204400287
+status: 4
+tags: []
+user_id: upratham

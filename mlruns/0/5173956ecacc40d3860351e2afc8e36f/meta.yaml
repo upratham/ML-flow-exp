@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOps/ML-flow-exp/mlruns/0/5173956ecacc40d3860351e2afc8e36f/artifacts
+end_time: 1764204115612
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5173956ecacc40d3860351e2afc8e36f
+run_name: indecisive-chimp-458
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764204115179
+status: 3
+tags: []
+user_id: upratham

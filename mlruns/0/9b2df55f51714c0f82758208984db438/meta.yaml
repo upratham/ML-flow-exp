@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOps/ML-flow-exp/mlruns/0/9b2df55f51714c0f82758208984db438/artifacts
+end_time: 1764204344144
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9b2df55f51714c0f82758208984db438
+run_name: casual-doe-140
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764204343343
+status: 3
+tags: []
+user_id: upratham

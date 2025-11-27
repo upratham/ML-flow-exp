@@ -7,7 +7,6 @@ from sklearn.metrics import confusion_matrix,accuracy_score
 import matplotlib.pyplot as plt 
 import seaborn as sns
 
-mlflow.set_tracking_uri("http://127.0.0.1:5000/")
 #import wine data
 
 wine=load_wine()
@@ -15,16 +14,13 @@ X=wine.data
 y=wine.target
 
 #Train text split 
-test_size=0.2
-X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=test_size,random_state=21)
+
+X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.2,random_state=21)
 
 # Hyperparameters
 
 max_depth=5
 n_estimators=100
-
-#Mention Experiment below
-mlflow.set_experiment('MLOps_Exp-1')
 
 with mlflow.start_run():
     rfc=RandomForestClassifier(max_depth=max_depth, n_estimators=n_estimators,random_state=1)
@@ -35,7 +31,6 @@ with mlflow.start_run():
     mlflow.log_metric('Accuracy', accuracy)
     mlflow.log_param('max_depth',max_depth)
     mlflow.log_param('n_estimators',n_estimators)
-    mlflow.log_param('Test Size',test_size)
     #create Confusion matrix plot
     cm=confusion_matrix(y_test,y_pred)
     plt.figure(figsize=(6,6))

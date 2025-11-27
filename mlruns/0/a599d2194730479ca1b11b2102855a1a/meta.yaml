@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOps/ML-flow-exp/mlruns/0/a599d2194730479ca1b11b2102855a1a/artifacts
+end_time: 1764204240841
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a599d2194730479ca1b11b2102855a1a
+run_name: big-trout-255
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764204240372
+status: 3
+tags: []
+user_id: upratham

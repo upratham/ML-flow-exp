@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOps/ML-flow-exp/mlruns/0/9820547da4de4c72926012cfdc5e28d4/artifacts
+end_time: 1764196697203
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9820547da4de4c72926012cfdc5e28d4
+run_name: enthused-seal-395
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764196696811
+status: 3
+tags: []
+user_id: upratham

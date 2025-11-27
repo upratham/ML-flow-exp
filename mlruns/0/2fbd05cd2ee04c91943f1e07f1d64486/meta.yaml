@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOps/ML-flow-exp/mlruns/0/2fbd05cd2ee04c91943f1e07f1d64486/artifacts
+end_time: 1764204027087
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2fbd05cd2ee04c91943f1e07f1d64486
+run_name: handsome-colt-278
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764204026655
+status: 3
+tags: []
+user_id: upratham

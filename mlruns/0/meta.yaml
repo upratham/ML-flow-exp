@@ -1,6 +1,6 @@
-artifact_location: mlflow-artifacts:/0
-creation_time: 1764194836686
+artifact_location: file:///D:/MLOps/ML-flow-exp/mlruns/0
+creation_time: 1764196696631
 experiment_id: '0'
-last_update_time: 1764194836686
+last_update_time: 1764196696631
 lifecycle_stage: active
 name: Default
