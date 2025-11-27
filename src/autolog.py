@@ -29,7 +29,8 @@ X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=test_size,random_
 max_depth=5
 n_estimators=100
 
-#Mention Experiment below
+#Set Experiment below
+mlflow.autolog()
 mlflow.set_experiment('MLOps_Exp-2')  #you can directly create an experiment by mentioning new name here
 
 with mlflow.start_run(): # Another way using experiment id
@@ -39,10 +40,10 @@ with mlflow.start_run(): # Another way using experiment id
     accuracy= accuracy_score(y_test,y_pred)
     
     #set logs
-    mlflow.log_metric('Accuracy', accuracy)
-    mlflow.log_param('max_depth',max_depth)
-    mlflow.log_param('n_estimators',n_estimators)
-    mlflow.log_param('Test Size',test_size)
+    # mlflow.log_metric('Accuracy', accuracy)
+    # mlflow.log_param('max_depth',max_depth)
+    # mlflow.log_param('n_estimators',n_estimators)
+    # mlflow.log_param('Test Size',test_size)
    
     #create Confusion matrix plot
     cm=confusion_matrix(y_test,y_pred)
@@ -55,15 +56,15 @@ with mlflow.start_run(): # Another way using experiment id
     plt.savefig('Confusionmatrix.png')
 
     #log artifcats using mlflow
-    mlflow.log_artifact('Confusionmatrix.png')
-    mlflow.log_artifact(__file__)
+    # mlflow.log_artifact('Confusionmatrix.png')
+    mlflow.log_artifact(__file__) #Auto log does not log file automatically
    
     # set tags
     mlflow.set_tags({'Author':'Prathamesh2','Project':'MlOps'})
 
     #log model
 
-    mlflow.sklearn.log_model(rfc,"RandomForestClassifier")
+   # mlflow.sklearn.log_model(rfc,"RandomForestClassifier")
     print('acuuracy:',accuracy)
 
   
