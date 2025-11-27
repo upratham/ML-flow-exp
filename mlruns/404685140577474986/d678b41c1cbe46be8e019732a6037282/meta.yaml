@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/404685140577474986/d678b41c1cbe46be8e019732a6037282/artifacts
+end_time: 1764204942658
+entry_point_name: ''
+experiment_id: '404685140577474986'
+lifecycle_stage: active
+run_id: d678b41c1cbe46be8e019732a6037282
+run_name: persistent-lamb-898
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764204941596
+status: 3
+tags: []
+user_id: upratham

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/869904289492309863/6054ddf1e6784c0b8809165b4ca39677/artifacts
+end_time: 1764204914174
+entry_point_name: ''
+experiment_id: '869904289492309863'
+lifecycle_stage: active
+run_id: 6054ddf1e6784c0b8809165b4ca39677
+run_name: nimble-seal-242
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764204912969
+status: 3
+tags: []
+user_id: upratham

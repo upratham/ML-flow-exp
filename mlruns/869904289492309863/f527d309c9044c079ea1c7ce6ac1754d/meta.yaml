@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/869904289492309863/f527d309c9044c079ea1c7ce6ac1754d/artifacts
+end_time: 1764204927024
+entry_point_name: ''
+experiment_id: '869904289492309863'
+lifecycle_stage: active
+run_id: f527d309c9044c079ea1c7ce6ac1754d
+run_name: selective-swan-477
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764204925969
+status: 3
+tags: []
+user_id: upratham
