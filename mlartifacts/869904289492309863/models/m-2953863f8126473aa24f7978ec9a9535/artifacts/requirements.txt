@@ -1,0 +1,7 @@
+mlflow==3.1.4
+cloudpickle==2.0.0
+numpy==1.23.4
+psutil==5.9.0
+scikit-learn==1.4.1.post1
+scipy==1.9.3
+uuid==1.30

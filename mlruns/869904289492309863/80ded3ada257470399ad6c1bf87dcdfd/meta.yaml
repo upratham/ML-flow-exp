@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/869904289492309863/80ded3ada257470399ad6c1bf87dcdfd/artifacts
+end_time: 1764205395390
+entry_point_name: ''
+experiment_id: '869904289492309863'
+lifecycle_stage: active
+run_id: 80ded3ada257470399ad6c1bf87dcdfd
+run_name: likeable-smelt-447
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764205394749
+status: 3
+tags: []
+user_id: upratham

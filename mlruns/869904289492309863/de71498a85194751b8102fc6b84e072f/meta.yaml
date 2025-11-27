@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/869904289492309863/de71498a85194751b8102fc6b84e072f/artifacts
+end_time: 1764205630878
+entry_point_name: ''
+experiment_id: '869904289492309863'
+lifecycle_stage: active
+run_id: de71498a85194751b8102fc6b84e072f
+run_name: funny-skink-628
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764205621441
+status: 3
+tags: []
+user_id: upratham

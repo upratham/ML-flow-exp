@@ -55,9 +55,7 @@ with mlflow.start_run(): # Another way using experiment id
     # set tags
     mlflow.set_tags({'Author':'Prathamesh','Project':'MlOps'})
 
-    #log model
 
-    mlflow.sklearn.log_model(rfc,"RandomForestClassifier")
     print('acuuracy:',accuracy)
 
   

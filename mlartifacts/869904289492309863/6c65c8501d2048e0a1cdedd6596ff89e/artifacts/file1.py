@@ -57,7 +57,7 @@ with mlflow.start_run(): # Another way using experiment id
 
     #log model
 
-    mlflow.sklearn.log_model(rfc,"RandomForestClassifier")
+    mlflow.sklearn.log_model(rfc,"Random ForestClassifier")
     print('acuuracy:',accuracy)
 
   

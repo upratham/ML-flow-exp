@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/869904289492309863/6c65c8501d2048e0a1cdedd6596ff89e/artifacts
+end_time: 1764205535764
+entry_point_name: ''
+experiment_id: '869904289492309863'
+lifecycle_stage: active
+run_id: 6c65c8501d2048e0a1cdedd6596ff89e
+run_name: spiffy-duck-584
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764205524825
+status: 3
+tags: []
+user_id: upratham
