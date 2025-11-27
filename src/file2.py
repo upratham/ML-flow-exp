@@ -8,8 +8,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import dagshub 
 
+#init dagshub
 dagshub.init(repo_owner='upratham2002',repo_name='ML-flow-exp',mlflow=True)
-mlflow.set_tracking_uri("http://127.0.0.1:5000/")
+
+#import wine data
+
+mlflow.set_tracking_uri("https://dagshub.com/upratham2002/ML-flow-exp.mlflow")
 #import wine data
 
 wine=load_wine()
