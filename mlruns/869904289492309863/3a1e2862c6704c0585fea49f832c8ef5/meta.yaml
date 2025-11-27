@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/869904289492309863/3a1e2862c6704c0585fea49f832c8ef5/artifacts
+end_time: 1764204744748
+entry_point_name: ''
+experiment_id: '869904289492309863'
+lifecycle_stage: active
+run_id: 3a1e2862c6704c0585fea49f832c8ef5
+run_name: worried-zebra-56
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764204744092
+status: 3
+tags: []
+user_id: upratham
